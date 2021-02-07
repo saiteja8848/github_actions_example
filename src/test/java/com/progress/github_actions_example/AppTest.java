@@ -21,4 +21,9 @@ public class AppTest {
 		assertEquals(calculator.add(999, 1), 1000);
 		assertEquals(calculator.add(1, 100), 101);
 	}
+	
+	@Test
+	public void multiplicationTest() {
+		assertEquals(calculator.multiplication(10, 10), 100);
+	}
 }
