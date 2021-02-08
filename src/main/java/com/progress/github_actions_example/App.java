@@ -1,5 +1,6 @@
 package com.progress.github_actions_example;
 
+
 class Calculator {
 
 	public int add(int a, int b) {
@@ -18,6 +19,5 @@ class Calculator {
 
 public class App {
 	public static void main(String[] args) {
-		System.out.println("Hello World!");
 	}
 }
